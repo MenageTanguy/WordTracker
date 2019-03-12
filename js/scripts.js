@@ -78,7 +78,7 @@ $(document).ready(function () {
 
     button.onclick = function () {
         var text = document.getElementById("search").value;
-        window.location.replace("http://localhost/recherche.html?sch=" + text);
+        window.location.replace("http://tanguy-menage.com/recherche.html?sch=" + text);
     }
 
     document.getElementById("search").addEventListener("keyup", function (event) {

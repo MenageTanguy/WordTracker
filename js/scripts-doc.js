@@ -11,7 +11,7 @@ var searchText = urlParams.get('sch');
 if (searchText) {
     searchText = searchText.trim();
     var request = new XMLHttpRequest();
-    request.open('GET', 'http://localhost//result.json', true);
+    request.open('GET', 'http://tanguy-menage.com//result.json', true);
     request.onload = function () {
 
         // Begin accessing JSON data here
@@ -51,7 +51,7 @@ if (searchText) {
                     });
                 }
 
-                var refToFile = "http://localhost//docs//" + result.name;
+                var refToFile = "http://tanguy-menage.com//docs//" + result.name;
                 textContent = textContent.concat('[...] ', '<i>' + result.page + '/' + result.nbPage + ' </i>',
                 "<a target=\"_blank\" href=\""+refToFile+"\"> voir plus <\a>");
 

@@ -91,11 +91,11 @@ $(document).ready(function () {
         if (urlParams.get('sch')) {
             var textUrl =urlParams.get('sch').trim().toLowerCase();
             if (textUrl.localeCompare(text) != 0) {
-                window.location.replace("http://localhost/recherche.html?sch=" + text);
+                window.location.replace("http://tanguy-menage.com/recherche.html?sch=" + text);
             }
         }
         else{
-            window.location.replace("http://localhost/recherche.html?sch=" + text);
+            window.location.replace("http://tanguy-menage.com/recherche.html?sch=" + text);
         }
 
     }
